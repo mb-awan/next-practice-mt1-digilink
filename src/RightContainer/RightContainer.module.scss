@@ -1,0 +1,12 @@
+.rightContainer {
+  width: 85%;
+  background-color: #f0f4f8;
+  height: 84vh;
+  padding: 1rem;
+  overflow: auto;
+}
+
+
+.rightContainer::-webkit-scrollbar {
+  display: none;
+}

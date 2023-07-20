@@ -1,0 +1,34 @@
+.menuList {
+    border-top: 1px solid #F0F4F8;
+    position: relative;
+    height: 88vh;
+
+    ul {
+        padding: 0px;
+        width: 95%;
+        text-align: center;
+
+        li {
+            margin: auto;
+            height: 7vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            font-family: 'Roboto', sans-serif;
+            border-radius: 0.6rem;
+
+            svg {
+                margin-right: 1rem;
+            }
+
+            font-size: 1rem;
+            list-style: none;
+            margin-top: 4px;
+        }
+
+        :hover {
+            background-color: #2fc7f7;
+        }
+    }
+
+}

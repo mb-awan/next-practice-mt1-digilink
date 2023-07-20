@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    width: 100%;
+    min-height: 8vh;
+    justify-content: center;
+
+    .logo {
+        width: 20%;
+        display: flex;
+        padding: 4px 8px;
+        align-items: center;
+        font-size: 1.3rem;
+
+        svg {
+            margin-right: 0.6rem;
+        }
+    }
+
+    .searchBarAndIcons {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .searchFrame {
+            width: 80%;
+            text-align: right;
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 31%;
+                transform: translateY(-50%);
+            }
+
+            input {
+                width: 60%;
+                font-size: 1rem;
+                border-radius: 5px;
+                padding: 10px;
+                padding-left: 10%;
+                border: none;
+                background-color: #F0F4F8;
+            }
+        }
+
+        .notificationsAndUser {
+            width: 20%;
+            text-align: right;
+
+            span {
+                margin-right: 10%;
+            }
+        }
+    }
+
+}

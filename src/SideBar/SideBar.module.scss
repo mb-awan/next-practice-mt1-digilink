@@ -1,0 +1,17 @@
+.sideBar {
+  width: 15%;
+
+
+  .settings {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 5vh;
+
+    svg {
+      margin-right: 1rem;
+    }
+  }
+}

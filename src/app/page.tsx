@@ -1,11 +1,16 @@
-import SideBar from "@/side-bar";
-import MainContainer from "@/main-container";
-
-import Styles from './page.module.scss';
+import Styles from "./page.module.scss";
+import SideBar from "@/SideBar";
+import RightContainer from "@/RightContainer";
+import Header from "./Header";
 
 export default function Page() {
-  return <div className={Styles.pageContainer}>
-    <SideBar />
-    <MainContainer />
-  </div>
+  return (
+    <>
+      <Header />
+      <main className={Styles.mainContainer}>
+        <SideBar />
+        <RightContainer />
+      </main>
+    </>
+  );
 }

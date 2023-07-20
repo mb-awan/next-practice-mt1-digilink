@@ -1,0 +1,48 @@
+.activitiesHeader {
+    display: flex;
+    width: 90%;
+    margin: 0px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        color: #233539;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.05px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .tabs {
+        ul {
+            margin-right: 20px;
+            border-radius: 1rem;
+            border: 1px solid #ebecee;
+            padding: 0.5rem 1rem 0.5rem;
+
+            li {
+                font-family: Roboto;
+                list-style: none;
+                display: inline;
+                margin-left: 0.5rem;
+                font-size: 0.8rem;
+                width: 1.5rem;
+                color: #323c47;
+                font-weight: 600;
+                opacity: 0.6000000238418579;
+                cursor: pointer;
+                font-family: 'Roboto', sans-serif;
+                padding: 0.2rem 1rem 0.2rem;
+            }
+
+            .active {
+                background-color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.activitiesItem {
+    min-height: 150px;
+    list-style: none;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0px;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    .activityItemListBody {
+        min-height: 50%;
+        border: 0.5px solid #E9EFF4;
+        border-radius: 5px;
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+
+        .socialMediaIcons {
+            svg {
+                margin: 20px 5px 0px;
+                color: #2FC4F3;
+            }
+        }
+    }
+}
