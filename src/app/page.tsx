@@ -1,7 +1,7 @@
+import Header from "@/Components/Header";
 import Styles from "./page.module.scss";
-import SideBar from "@/SideBar";
-import RightContainer from "@/RightContainer";
-import Header from "./Header";
+import SideBar from "@/Components/SideBar";
+import RightContainer from "@/Components/RightContainer";
 
 export default function Page() {
   return (
